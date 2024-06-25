@@ -2,5 +2,17 @@
     width: 24px;
     height: 24px;
     background-image: url("../img/menu") ;
+    background-repeat: no-repeat;
     display: inline block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em;
 }
